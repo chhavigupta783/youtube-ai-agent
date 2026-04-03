@@ -3,7 +3,7 @@ name: Daily YouTube AI Agent
 on:
   schedule:
     - cron: '30 0 * * *'  # 6:00 AM IST
-
+workflow_dispatch:
 jobs:
   run-agent:
     runs-on: ubuntu-latest
